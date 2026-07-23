@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun Nia Putri Novitasari! 🎂💕</title>
+    <meta name="description" content="Kejutan spesial untuk pacarku yang paling cantik.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    
+    <!-- Space Stars Background -->
+    <div id="stars-container"></div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" src="kasih_putih.mp3" preload="auto"></audio>
+
+    <!-- Floating Background Hearts -->
+    <div id="floating-hearts-container"></div>
+
+    <!-- Slideshow Container -->
+    <div class="slideshow-container">
+
+        <!-- SLIDE 1: Intro / Envelope -->
+        <section class="slide active" id="slide-1">
+            <div class="intro-content">
+                <div class="pulse-container" id="open-btn">
+                    <div class="heart-icon">🎁</div>
+                    <p>Ada kejutan untukmu...</p>
+                    <span class="tap-hint">(Ketuk Kadonya)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 2: Hero & Photo 1 -->
+        <section class="slide" id="slide-2">
+            <div class="slide-content">
+                <h1 class="slide-title">Selamat Ulang Tahun!</h1>
+                <h2 class="slide-subtitle">Nia Putri Novitasari 💕</h2>
+                <div class="photo-frame single-photo">
+                    <img src="images/photo1.jpg" alt="Nia Cantik">
+                </div>
+                <div class="romantic-text">
+                    <p>
+                        Hari ini adalah hari yang paling spesial, karena bidadari kesayanganku lahir ke dunia. 
+                        Terima kasih sudah lahir dan tumbuh menjadi perempuan yang begitu luar biasa. 
+                        Melihat senyummu adalah anugerah terindah buatku.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 3: Memories & Photo 2 + 3 -->
+        <section class="slide" id="slide-3">
+            <div class="slide-content">
+                <h1 class="slide-title sm">Kenangan Indah Kita ✨</h1>
+                <div class="photo-grid">
+                    <div class="photo-frame tilt-left">
+                        <img src="images/photo2.jpg" alt="Memori 1">
+                    </div>
+                    <div class="photo-frame tilt-right">
+                        <img src="images/photo3.jpg" alt="Memori 2">
+                    </div>
+                </div>
+                <div class="romantic-text">
+                    <p>
+                        Setiap detik bersamamu adalah favoritku. Melewati banyak hal berdua bikin aku sadar 
+                        kalau aku nggak mau kehilangan kamu. Kamu bukan cuma pacar, tapi rumah tempat aku 
+                        pulang dan menceritakan segala lelahku.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 4: Wishes & Photo 4 + 5 -->
+        <section class="slide" id="slide-4">
+            <div class="slide-content">
+                <h1 class="slide-title sm">Doaku Untukmu 🙏</h1>
+                <div class="photo-grid">
+                    <div class="photo-frame tilt-right">
+                        <img src="images/photo4.jpg" alt="Memori 3">
+                    </div>
+                    <div class="photo-frame tilt-left">
+                        <img src="images/photo5.jpg" alt="Memori 4">
+                    </div>
+                </div>
+                <div class="romantic-text">
+                    <p>
+                        Semoga di usia yang baru ini, kamu makin cantik, selalu diberikan kesehatan, 
+                        dan segala impianmu bisa tercapai. Dan pastinya, semoga kita berdua bisa 
+                        terus sama-sama, berjuang bareng, dan makin langgeng ya sayang!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SLIDE 5: Closing -->
+        <section class="slide" id="slide-5">
+            <div class="slide-content text-center flex-center">
+                <div class="big-heart">💖</div>
+                <h1 class="slide-title">Aku Sayang Kamu</h1>
+                <h2 class="slide-subtitle">Lebih dari yang kamu tau.</h2>
+                <div class="romantic-text mt-4">
+                    <p>Happy Birthday sekali lagi, cintaku. <br>I love you forever! 🥰</p>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="nav-controls hidden" id="nav-controls">
+        <button class="nav-btn" id="prev-btn">❮ Sebelumnya</button>
+        <button class="nav-btn" id="next-btn">Selanjutnya ❯</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
